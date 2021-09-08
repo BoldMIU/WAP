@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>ASCIImation</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="ascii.css" type="text/css" rel="stylesheet">
+	<script src="animation.js"></script>
+	<script src="ascii.js"></script>
+</head>
+
+<body>
+	<header>CSE 190 M ASCII Animation Viewer</header>
+	<div class="container">
+		<textarea id="text-area" cols="80" rows="20"></textarea>
+		<fieldset>
+			<legend>Play Controls:</legend>
+			<button id="start">Start</button>
+			<button disabled="disabled" id="stop">Stop</button>
+		</fieldset>
+
+		<fieldset>
+			<legend>Animation:</legend>
+			<select id="animation">
+				<option selected="selected" value="Blank">Blank</option>
+				<option value="Exercise">Exercise</option>
+				<option value="Juggler">Juggler</option>
+				<option value="Bike">Bike</option>
+				<option value="Dive">Dive</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend>Size:</legend>
+			<select id="fontsize">
+				<option value="7pt">Tiny</option>
+				<option value="10pt">Small</option>
+				<option value="12pt" selected="selected">Medium</option>
+				<option value="16pt">Large</option>
+				<option value="24pt">Extra Large</option>
+				<option value="32pt">XXL</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend>Speed:</legend>
+			<label><input id="turbo" type="checkbox">Turbo</label>
+		</fieldset>
+	</div>
+
+	<div id="validate">
+		<a href="https://validator.w3.org/check/referer">
+			<img src="vhtml.png" alt="html validator" />
+		</a>
+		<a href="https://jigsaw.w3.org/css-validator/check/referer">
+			<img src="vcss.gif" alt="Valid CSS!" />
+		</a>
+		<a href="https://webster.cs.washington.edu/jslint/?referer">
+			<img src="vjs.png" alt="Valid JS!" /></a>
+	</div>
+
+
+
+</body>
+
+</html>

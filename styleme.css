@@ -1,0 +1,92 @@
+
+body {
+  background-color: rgb(184, 153, 123);
+  
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+
+ol{
+list-style-type: upper-roman;
+}
+h1 {
+  color: rgb(88, 51, 88);
+  font-size: 35px;
+  text-shadow: 2px 2px;
+  text-align: left;
+  font-family: "Calibri";
+}
+h2 {
+
+  color: brown;
+  font-size: 10;
+  text-align: left;
+  text-decoration: white;
+  font-family:  "Sans-serif";
+  font-style: italic;
+}
+h3 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+h4{
+
+  color: rgb(52, 41, 206);
+  font-size: 20px;
+  text-align: left;
+}
+#working {
+  width: 100px;
+  height: 100px;
+  
+}
+#active{
+  width: 100px;
+  height: 100px;
+
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+ 
+} 
+p.top{
+color: brown;
+font-style: italic;
+}
+p.comment{
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+p.title{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 13;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+<<<<<<< HEAD
+
+
+
+
+
+
+=======
+>>>>>>> f6ba7585e777a56ebf238625d0612e2afe408106

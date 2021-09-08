@@ -1,0 +1,111 @@
+h1 {
+  font-size: 24pt;
+  font-weight: bold;
+  text-align: center;
+  font-family: Tahoma, Verdana, sans-serif;
+  text-shadow: 3px 3px #999999;
+}
+
+body {
+  margin: 0;
+  background: url('../images/background.png') left top repeat;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  background: url('../images/bannerbg.png') left top repeat-x;
+  height: 50px;
+}
+
+.layout {
+  border: 3px solid gray;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row-reverse;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.bigrotten {
+  background: url('../images/rbg.png') left top repeat-x;
+  display: flex;
+  align-items: center;
+}
+
+.bigrotten span {
+  color: red;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.leftside {
+  flex: 1;
+}
+
+.comments {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.comments .comment {
+  flex-basis: 47%;
+  flex-shrink: 0;
+  margin-left: 4px;
+  margin-right: 4px; 
+}
+
+.comments .comment .comment-content {
+  background: #E8DC9B;
+  border: 2px solid gray;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.comment-content img {
+  float: left;
+  margin-right: 5px;
+}
+
+.comments .comment .person {
+ overflow: hidden;
+}
+
+.comments .comment .person img {
+  float: left;
+  margin-right: 5px;
+}
+
+.rightside {
+  flex-basis: 250px;
+  flex-shrink: 0;
+  background: #A2B964;
+}
+
+.rightside > dl {
+  padding: 10px;
+}
+
+.leftside .number {
+  background: #A2B964;
+  padding: 3px;
+}
+
+.leftside .number p {
+  margin: 0;
+  text-align: center;
+}
+
+
+.w3c {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 5px;
+  bottom: 10px;
+  opacity: 0.5;
+}

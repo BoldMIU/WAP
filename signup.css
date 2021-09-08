@@ -1,0 +1,80 @@
+<<<<<<< HEAD
+form {
+    border: 2px solid #eeeeee;
+    width: 400px;
+    background-color: rgb(219, 192, 241);
+    border-radius: 15px;
+    text-align: left;
+
+}
+
+button {
+    background-color: #cf578f;
+    color: white;
+    padding: 14px 20px;
+    
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+legend {
+    position: relative;
+    top: -20px;
+    left: 10px;
+    border-radius: 5px;
+    background-color: rgb(241, 236, 236);
+    color: #fff;
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+   
+}
+.button_css
+{
+	background-color: rgb(167, 104, 156);
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+=======
+form {
+    border: 2px solid #eeeeee;
+    width: 400px;
+    background-color: rgb(219, 192, 241);
+    border-radius: 15px;
+    text-align: left;
+
+}
+
+button {
+    background-color: #cf578f;
+    color: white;
+    padding: 14px 20px;
+    
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+legend {
+    position: relative;
+    top: -20px;
+    left: 10px;
+    border-radius: 5px;
+    background-color: rgb(241, 236, 236);
+    color: #fff;
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+   
+}
+.button_css
+{
+	background-color: rgb(167, 104, 156);
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+>>>>>>> f6ba7585e777a56ebf238625d0612e2afe408106
+}
