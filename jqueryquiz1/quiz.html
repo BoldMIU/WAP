@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Quiz </title>
+    <style> 
+    span {
+        font-weight: bold;
+    } 
+    div {
+        color: darkmagenta;
+    }
+    </style>
+</head>
+<body>
+    <h2>jQuery Quiz I</h2> 
+    <ol>
+        <li> <span>
+            In jQuery terminology, what is the difference between the "jQuery function"
+            and the "jQuery object"?
+        </span>
+        <div>
+            The object is the global object that represents the jQuery library. the functions are containted inside
+            the object, so we call
+            the functions using the object reference.
+
+        </div>
+        </li> <br>
+
+        <li> <span>
+            Write jQuery code to find all h1 elements that are children of a div element
+            and make their background color red.</span>
+            <div>
+                $("div h1").css({"background-color": "red"});
+            </div>
+        </li>  <br>
+
+        <li> <span>
+            Use a jQuery method to insert the text "YES!" at the end of the "p" element.
+        </span>
+        <div>
+          $("p").append("YES");
+        </div>
+        </li> <br>
+
+    </ol>
+</body>
+</html>
