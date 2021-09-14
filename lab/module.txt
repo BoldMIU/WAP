@@ -1,0 +1,49 @@
+1.	1 8 8 9 10 1
+2.	Local scope is scope inside of the function. Global scope is a big scope of the whole Javascript program.
+3.	a)no
+b)yes
+c)no
+d)yes
+e)yes
+4.	81 25
+5.	10
+6.	var count = (function(){
+	var counter = 0;
+	return{
+		add: function(){
+			return counter += 1;
+			},
+		reset: function(){
+			counter = 0;
+			return counter;
+			}
+	}
+}
+)();
+7.	var free = 0;
+	var count = (function(){
+	var counter = 0;
+	return{
+		add:function(){
+			free-= 1;
+			return counter += 1;
+			}
+		reset: function(){
+			counter = 0;
+			return counter;
+			}
+	}
+}
+)();
+8. function make_adder(n){
+	var counter = 0;
+	var added = n;
+	return function(){
+		counter += added;
+	}
+
+}
+9.Using module pattern.
+15. Success: Hatori.	
+16. success error
+
