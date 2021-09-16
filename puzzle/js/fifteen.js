@@ -20,7 +20,7 @@ $(document).ready(function () {
             console.log(x);
             $(this).addClass("puzzlepiece");
             $(this).css({
-                "background-image": "url(./images/background.jpg)",
+                "background-image": "url(images/background.jpg)",
                 "background-position": -x + "px " + -y + "px",
                 left: x + "px",
                 top: y + "px",
