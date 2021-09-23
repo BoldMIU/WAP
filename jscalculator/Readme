@@ -1,0 +1,4 @@
+1) npm install express
+2) D:\calculator> node api.js
+3) http://localhost:8085/
+
